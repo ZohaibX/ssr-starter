@@ -14,20 +14,9 @@ const Home = () => {
     </Helmet>
   );
 
-  console.log("hekk");
-  
-
   return (
     <div>
-      {head()}
-      <h1>Im a Home Component </h1>
-      <button onClick={() => console.log('You Pressed Me!')}>
-        Press Me - !
-      </button>
-      <br />
-      <Link to='/users'>
-        <button>Get me to Users</button>
-      </Link>
+      <h1>hello </h1>
     </div>
   );
 };
