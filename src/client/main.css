@@ -15,10 +15,6 @@ body {
   font-size: 62.5%;
   font-family: Verdana, sans-serif;
   font-weight: 400;
-  line-height: 1.6;
-  background-image: linear-gradient(to right, #ff3366, #BA265D);
-  background-size: cover;
-  background-repeat: no-repeat;
   min-height: 100vh;
   color: #777; }
   @media only screen and (max-width: 68.75em) {
@@ -637,3 +633,8 @@ big-desktop -- 1800px +
   .btn:focus {
     outline: none;
     animation: pulsate 1s infinite; }
+
+#h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: yellow; }

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import "../main.css"
 
 const Home = () => {
   const head = () => (
@@ -16,7 +17,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>hello </h1>
+      <h1 id="h1">Whats up</h1>
     </div>
   );
 };
