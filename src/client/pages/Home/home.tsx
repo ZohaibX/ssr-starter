@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import "../../css/main.css"
 
+import figure from './Image/figure.jpg'
+
+
 const Home = () => {
   const head = () => (
     <Helmet>
@@ -18,6 +21,16 @@ const Home = () => {
   return (
     <div>
       {head()}
+
+      <figure className="story__shape">
+            <img
+              src=''
+              alt="Person on a tour"
+              className="story__img"
+            />
+            <figcaption className="story__caption">Mary Smith</figcaption>
+          </figure>
+
       <h1 id="h1">Whats up -- 2</h1>
     </div>
   );
