@@ -638,3 +638,13 @@ big-desktop -- 1800px +
   font-family: sans-serif;
   font-weight: bolder;
   color: orangered; }
+
+.home {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.home-img {
+  height: 15rem;
+  width: 15rem;
+  top: 4rem; }

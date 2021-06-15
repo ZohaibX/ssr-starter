@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import "../../css/main.css"
+import {Container , Col , Row , Image} from 'react-bootstrap'
 
 import figure from './Image/figure.jpg'
 
@@ -19,19 +20,17 @@ const Home = () => {
   );
 
   return (
-    <div>
+    <div >
       {head()}
 
-      <figure className="story__shape">
-            <img
-              src=''
-              alt="Person on a tour"
-              className="story__img"
-            />
-            <figcaption className="story__caption">Mary Smith</figcaption>
-          </figure>
+      <Container className="home">
+        <Row>
+          <Col xs={6} md={4}>
+            <Image className="home-img" src={`https://project-1-bucket.s3.amazonaws.com/figure.jpg`} roundedCircle />
+          </Col>
+        </Row>
+      </Container>
 
-      <h1 id="h1">Whats up -- 2</h1>
     </div>
   );
 };
